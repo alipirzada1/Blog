@@ -1,5 +1,6 @@
 import React from "react";
 import faker from "faker";
+import RandomPost from "./RandomPost";
 
 const CommentDetail = () => {
   return (
@@ -14,7 +15,9 @@ const CommentDetail = () => {
         <div className="metadata">
           <span className="date">Today at 6:00PM</span>
         </div>
-        <div className="text">Nice Blog Post!</div>
+        <div className="text">
+          <RandomPost></RandomPost>
+        </div>
       </div>
     </div>
   );
