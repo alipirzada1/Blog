@@ -6,21 +6,21 @@ import CommentDetail from "./CommentDetail";
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
-      <CommentDetail />
+      <CommentDetail
+        author="Sam"
+        date={new Date().toLocaleString()}
+        avatar={faker.image.image()}
+      />
+      <CommentDetail
+        author="Alex"
+        date={new Date().toLocaleString()}
+        avatar={faker.image.image()}
+      />
+      <CommentDetail
+        author="Jane"
+        date={new Date().toLocaleString()}
+        avatar={faker.image.image()}
+      />
     </div>
   );
 };
