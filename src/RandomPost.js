@@ -1,5 +1,3 @@
-import React from "react";
-
 let PostArr = [
   "Wow, Great Post",
   "Good read, thanks!",
